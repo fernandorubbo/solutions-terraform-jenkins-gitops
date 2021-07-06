@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "rubbo-tf-jenkins-2-tfstate"
     prefix = "env/prod"
   }
 }
